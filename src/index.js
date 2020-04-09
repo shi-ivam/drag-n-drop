@@ -38,7 +38,7 @@ class Board extends React.Component{
         if (type==="columns"){
             const toBeState = columnDrag(result,this.state);
             if(!!toBeState){
-                this.setState({...toBeState})
+                console.log('Drag Completed')
             }
         }
         else if (type==="items"){
